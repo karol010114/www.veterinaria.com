@@ -34,20 +34,6 @@ Este es un proyecto web diseñado para gestionar información de una clínica ve
 ├── ver-clientes.php                 # Script PHP para mostrar clientes
 ```
 
-## Descripción de Archivos Clave
-
-- **db/veterinaria.sql**: Contiene las consultas SQL necesarias para configurar la base de datos de la aplicación.
-- **img/**: Carpeta con archivos visuales y recursos HTML relacionados.
-- **scripts/registro.js**: Código JavaScript que maneja funcionalidades de registro en el lado del cliente.
-- **styles/**: Contiene archivos CSS para aplicar estilos a las diferentes secciones del proyecto.
-- **PHP**:
-  - `conexion.php`: Establece la conexión con la base de datos.
-  - `buscar-paciente.php`: Permite buscar pacientes en la base de datos.
-  - `registro.php`: Maneja el proceso de registro de usuarios.
-  - `ventanas.php`, `ver-clientes.php`: Scripts relacionados con la gestión de ventanas y la visualización de la lista de clientes.
-- **index.html**: Página principal que da inicio al sitio web.
-- **README.md**: Este archivo, que documenta el proyecto y su propósito.
-
 ## Cómo Ejecutar el Proyecto
 
 1. **Configurar la base de datos**:
