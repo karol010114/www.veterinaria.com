@@ -1,0 +1,113 @@
+/* Estilo general del body */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: #e7f1ff; /* Color de fondo suave azul claro */
+  color: #333; /* Color de texto oscuro para mejor legibilidad */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden; /* Oculta el overflow del body */
+}
+
+/* Estilo del contenedor del formulario */
+.form-container {
+  max-height: 90vh; /* Limitar la altura para mostrar scrollbar si es necesario */
+  overflow-y: auto; /* Mostrar scrollbar vertical si el contenido excede la altura */
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  width: 90%;
+  max-width: 600px;
+  padding: 20px;
+  margin: 10px; /* Añadido margen para evitar que el contenedor toque los bordes de la pantalla */
+}
+
+/* Estilo del formulario */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Espaciado uniforme entre los elementos del formulario */
+}
+
+/* Encabezados */
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: #3b82f6; /* Color de encabezado en azul suave */
+}
+
+h4, h3 {
+  margin: 15px 0;
+  font-size: 1.5rem;
+  color: #4b5563; /* Color de encabezado más oscuro para contraste */
+}
+
+/* Contenedor de espacios y letras */
+.pacios-letra {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Estilo de las etiquetas */
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #4b5563; /* Color de etiqueta */
+}
+
+/* Estilo de los inputs */
+input[type="text"], input[type="date"] {
+  padding: 10px;
+  border: 1px solid #cbd5e1; /* Bordes suaves en gris claro */
+  border-radius: 5px;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+input[type="text"]:focus, input[type="date"]:focus {
+  border-color: #60a5fa; /* Color de borde al enfocar */
+}
+
+input[type="radio"] {
+  margin-left: 5px;
+}
+
+/* Estilo de los botones */
+button {
+  background-color: #60a5fa; /* Color de fondo de botón */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+  background-color: #3b82f6; /* Color de fondo al pasar el ratón */
+  transform: translateY(-2px); /* Efecto de elevación */
+}
+
+button:active {
+  transform: translateY(1px); /* Efecto de presión */
+}
+
+/* Grupo de botones de envío */
+.submit-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Estilo de la sección de notas */
+#notas {
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  background: rgba(224, 224, 224, 0.5); /* Fondo de notas */
+}

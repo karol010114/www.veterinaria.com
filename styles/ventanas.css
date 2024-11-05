@@ -1,0 +1,98 @@
+/* Estilo general del cuerpo */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9; /* Fondo suave */
+    color: #333; /* Texto de color oscuro */
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 800px;
+    margin: 0 auto; /* Centra el contenedor */
+    padding: 20px;
+    text-align: center;
+    background-color: white; /* Fondo blanco para el contenedor */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra para el contenedor */
+    border-radius: 8px; /* Bordes redondeados */
+}
+
+/* Estilo del encabezado */
+h1 {
+    color: #6a1b9a; /* Morado */
+    margin-bottom: 30px;
+}
+
+/* Grupo de botones */
+.button-group {
+    display: flex;
+    justify-content: center; /* Centra los botones */
+    gap: 15px; /* Espaciado entre botones */
+    margin-bottom: 20px; /* Espacio debajo del grupo de botones */
+}
+
+/* Estilo de los botones */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px; /* Bordes redondeados */
+    background-color: #6a1b9a; /* Fondo morado */
+    color: white; /* Texto blanco */
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background-color: #8e24aa; /* Color más claro al pasar el mouse */
+    transform: scale(1.05); /* Efecto de aumento */
+}
+
+/* Estilo del campo de búsqueda */
+.search {
+    display: none; /* Oculto por defecto */
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px; /* Bordes redondeados */
+    width: 300px; /* Ancho fijo del campo de búsqueda */
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus {
+    outline: none; /* Sin contorno al hacer foco */
+    border-color: #6a1b9a; /* Cambio de color al hacer foco */
+}
+
+/* Estilo de resultados */
+#resultados {
+    margin-top: 20px;
+}
+
+/* Estilo de la tabla */
+table {
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 100%; /* Ancho de la tabla */
+    background-color: white; /* Fondo blanco para la tabla */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+table, th, td {
+    border: 1px solid #ddd; /* Bordes más suaves para la tabla */
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #6a1b9a; /* Fondo morado para el encabezado de la tabla */
+    color: white; /* Color blanco para el texto del encabezado */
+}
